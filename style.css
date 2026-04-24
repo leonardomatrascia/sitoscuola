@@ -1,0 +1,80 @@
+body {
+    font-family: Arial;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, aside, footer {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0c0065;
+    color: #ffffff;
+}
+
+.contenitore-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titolo {
+  text-align: center; 
+  width: 100%;   
+}
+nav {
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #d40000;
+}
+section.hero img {
+
+    height: 200px;
+    
+}
+footer {  
+ background-color:#0c0065;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 5px 0;
+     align-items: center;
+}
+
+h3{
+      text-align: auto; 
+  width: 100; 
+}
+    .card {
+      width: 200px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color:#0c0065;
+    }
+
+    .card img {
+      width: 150px;
+    }
